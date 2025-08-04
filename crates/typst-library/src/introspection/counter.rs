@@ -128,6 +128,14 @@ use crate::routines::Routines;
 /// We also display both the current
 /// page and total number of pages in
 /// Arabic numbers.
+///
+/// #set page(numbering: (page, total) => [Page #page of #total])
+///
+/// The total number of pages can be 
+/// customized with the use of a  
+/// function that receives each number 
+/// of the counter as a separate 
+/// argument.
 /// ```
 ///
 /// # Custom counters
